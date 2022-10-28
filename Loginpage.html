@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login page</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+
+
+    <form action="success2.html">
+        <header>
+            <h1>Login</h1>
+        </header>
+        <div class="logincontainer">
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            
+            <label for="psw">PASSWORD</label>
+            <input type="password" name="psw" id="psw" placeholder="Type in password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!@#$%^&*_-]).{8,}$" title="At least 1 upper case, At least 1 lower case, At least 1 digit, At least 1 special character, Minimum length of 8." required>
+
+            <p class="para1">By registering, you agree to our <a class="a1" href="#"> Terms & conditions.</a></p>
+            <button classtype="submit">Login</button>
+        </div>
+        
+    </form>
+
+    <p class="para2">Don't have an account? Register <a href="index.html">here</a>
+    </p>
+</body>
+
+</html>
